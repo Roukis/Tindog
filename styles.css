@@ -10,7 +10,7 @@ h1{
   font-size: 3.2rem;
   line-height: 1.5;
   font-weight: bold;
-  margin-top:150px;
+  margin-top:70px;
   margin-left: 10px;
 }
 h2{
@@ -28,12 +28,9 @@ p{
   color:#8f8f8f;
 }
 .container-fluid{
-  padding: 0.8%;
+  padding: 1% 1% 5%;
 }
-.title-image{
-  width: 50%;
-  transform:rotate(25deg)
-}
+
 /* Navigation Bar */
 .navbar{
   position: absolute
@@ -71,8 +68,18 @@ p{
   font-family: "Montserrat"
   font-weight: 300;
 }
+.title-image{
+  width: 225px;
+  transform:rotate(25deg);
+  position: absolute;
+  right:17%;
+  top:27%;
+}
 #features{
   padding: 7% 15%;
+  background-color: #fff;
+  position:relative;
+  /* z-index:1; */
 }
 .feature-box{
   text-align: center;
