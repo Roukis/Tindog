@@ -150,3 +150,10 @@ p{
 .pricing-column{
   padding: 3% 2%;
 }
+#footer{
+  text-align: center;
+}
+.social-icon{
+  text-align:center;
+  margin:10px;
+}
